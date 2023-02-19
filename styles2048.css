@@ -1,0 +1,245 @@
+		.p1 {
+			background-color: white; 
+			color: grey;
+			font-weight: bold;  
+			font-size: 15pt;	
+			padding: 10px;
+			border-width:2px;
+			border-style:solid;
+			border-color:blue;
+			text-align: center;
+			border-radius: 15px;
+			margin-top: 10px; 
+			margin-bottom: 10px;
+		}
+		body {
+			background-image: url('https://lifasr2.univ-lyon1.fr/aris.issad/jeu-2048/image.png');
+		}
+		h1 {
+
+			color: #776e65;
+			font-weight: bold;
+			font-family: "Trebuchet MS";
+			font-size: 30pt;
+			border-radius: 15px;
+			margin-top: 0px;
+			text-align: center;			
+		}
+		h2 {
+			color: #776e65;
+			text-align: center;
+			font-family: "Trebuchet MS";
+			font-size: 12pt;
+		}
+		.score {
+			color: #BA2F2F;
+			font-family: "Trebuchet MS";
+			text-align: center;
+			font-size: 20pt;
+			border: solid;
+			border-radius: 10px;
+			position: fixed;
+			bottom: auto;
+			right: 10%;
+			width: 200px;
+		}
+		.grille {
+			color: #bbada0;
+			margin: auto;
+			background-color: rgb(205, 193, 180);
+			border-color: rgb(187, 173, 160);
+			border: 200px;
+			border-spacing: 0px;
+				
+		}
+		.cellule {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+		}
+		.recommencer {
+			background-color: #BA2F2F;
+			color : white;
+			border : none;
+			border-radius: 10px;
+			height: 40px;
+			width: 150px; 
+		}
+		form {
+			margin: 0 auto;
+			width: 400px;
+			padding: 1em;
+			border: 1px solid #CCC;
+			border-radius: 1em;
+		}
+		.vert {
+			text-color: green;
+		}
+		.bleu {
+			color: blue;
+		}
+		.orange {
+			color: orange;
+		}
+		.rouge {
+			color: red;
+		}
+		.gras {
+			font-weight:bold;
+		}
+		.perte {
+			text-align:center;
+			color: green;
+		}
+		.c2	{
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			background-color: #eee4da;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			
+		}
+		.c4	{
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #ede0c8;
+		}
+		.c8	{
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #f2b179;
+		}
+		.c16 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #f59563;
+		}
+		.c32 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #f67c5f;
+		}
+		.c64 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #f65e3b;
+		}
+		.c128 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #edcf72;
+		}
+		.c256 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #edcc61;
+		}
+		.c512 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #edc850;
+		}
+		.c1024 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #edc53f;
+		}
+		.c2048 {
+			width: 75px; 
+			font-family: "Trebuchet MS";
+			font-size: 40px;
+			height: 70px;
+			color: rgb(119, 110, 101);
+			padding-top: 10px;
+			border: solid;
+			border-color: #bbada0;
+			text-align: center;
+			display: inline-block;
+			background-color: #edc22e;
+		}
